@@ -8,7 +8,7 @@ Trace IPv4 and IPv6 (both TCP and UDP) bind attempts. Performs dynamic tracing o
 \
 Output is as follows:
 
-![](headers.png)
+![](img/headers.png)
 
 Returns pid, task name, protocol, port and address of the bound socket.
 
@@ -29,4 +29,4 @@ sudo python3 bindsnoop.py
 ```
 ### Examples
 
-![](usage-example.png)
+![](img/usage-example.png)
