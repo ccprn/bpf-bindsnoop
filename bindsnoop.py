@@ -13,7 +13,6 @@ prog = """
 
 #include <bcc/proto.h>
 #include <net/inet_sock.h>
-#include <net/net_namespace.h>
 
 //structure to send information to user space
 struct data_t {
