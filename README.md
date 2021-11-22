@@ -19,7 +19,7 @@ Tested on Ubuntu 20.04.3 LTS Server
 Need a modern eBPF-enabled Linux distribution.  
 Prerequisites can be installed as follows:
 ```sh
-sudo apt-get install python3 build-essential autoconf automake autogen libjson-c-dev pkg-config libzmq3-dev libcurl4-openssl-dev libbpfcc-dev
+sudo apt-get install python3 python3-bpfcc build-essential autoconf automake autogen libjson-c-dev pkg-config libzmq3-dev libcurl4-openssl-dev libbpfcc-dev
 ```
 ### Run
 
