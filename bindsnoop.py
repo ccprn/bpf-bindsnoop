@@ -125,7 +125,7 @@ b = BPF(text = prog)
 b["events"].open_perf_buffer(print_event)
 
 #print headers
-print("%-10s %-20s %-8s %-12s %-10s" % ("PID","COMM","PROTO","PORT","ADDR"))
+print("%-10s %-20s %-12s %-8s %-40s" % ("PID","COMM","PROTO","PORT","ADDR"))
 
 #read events
 while 1:
